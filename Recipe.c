@@ -13,7 +13,6 @@ int main(void)
     printf("2 cups\t\t Vanilla chips \n");
     printf("1 cup\t\t Sliced almonds or pecans \n");
     printf("\n");
-    printf("1. In a large bowl mix the mayonnaise, yogurt, curry powder, chicken, grapes, and chopped vegetables.\n");
-    printf("2. Arrange rolls on a baking sheet and heat at 325°F for 5 minutes or until slightly crispy.\n");
-    printf("3. Cut a thin slice from the top of each roll and hollow out the inside of the rolls. Fill each roll with salad mixture and replace the roll tops. Refrigerate until serving.\n");
+    printf("1. Combine graham cracker crumbs and butter. Press into a greased 13″ x 9″ pan.\n");
+    printf("2. Combine remaining ingredients and spread over graham cracker mixture. Bake at 350°F for 25 minutes or until the edges are golden brown. Let cool and cut into squares.\n");
 }
