@@ -20,6 +20,7 @@ int main(void)
     printf("Selection code: %c \n", code1);
     printf("\n");
 
+    
     // Item 2
     printf("Item name: Caprisun \n");
 
