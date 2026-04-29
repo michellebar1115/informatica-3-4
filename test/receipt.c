@@ -21,7 +21,11 @@ int main(void)
 
     //Candy Lane
     printf("\n\nWelcome to the Candy Lane Shop!\n");
-    printf("---------------------------\n");
+    printf("**********************************\n");
     printf("Item\tPrice\tQuantity\t\tTotal\n");
-    printf("%c\t%.2f\t%d\t%d\n",item,price,quantity,total);
+    printf("%c\t%.2f\t%d\t%d\n",item,price,quantity);
+    printf("**********************************");
+    printf("%d",total);
+    printf("**********************************");
+    printf("Thank you for your purchance!");
 }
