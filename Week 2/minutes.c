@@ -18,6 +18,6 @@ int main(void)
     int endMin= startMin+min;
 
     printf("The movie will last %d hr and %d min\n", hour,min);
-    printf("End time: %d:%d\n",endHour,endMin);
+    printf("End time: %d:%d02d\n",endHour,endMin);
 
 }
