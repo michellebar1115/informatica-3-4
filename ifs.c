@@ -14,6 +14,9 @@ int main(void)
     int number;
     printf("Enter a number: ");
     scanf("%d", &number);
+    //if is similar to the excel one, else works as what happens if it is what you're asking and else is what is added if it is not what you're asking for.
+    // make sure to add {}
+
     if (number <0) {
         printf("%d is a negative number. \n", number);
     } else {
