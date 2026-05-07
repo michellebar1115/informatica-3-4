@@ -17,7 +17,15 @@ int main(void)
     int endHour= startHour+hour;
     int endMin= startMin+min;
 
+    if (endMin>=60){
+    endHour = endHour + (endMin / 60); //Update value of endHour variable
+    endMin = endMin % 60; //Extra minutes will appear this way
+    }
+
     printf("The movie will last %d hr and %d min\n", hour,min);
-    printf("End time: %d:%d02d\n",endHour,endMin);
+    printf("End time: %d:%02d \n",endHour,endMin);
+
+
 
 }
+
