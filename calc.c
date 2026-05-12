@@ -9,11 +9,11 @@ int main(void){
     printf("Calculator\n");
     printf("What would you like to do?:\n");
     printf("WARNING: If selecting Division, you cannot divide by zero.\n");
-    printf("1. Addition");
-    printf("2. Subtraction");
-    printf("3. Multiplication");
-    printf("4. Division");
-    scanf("%d\n",&user_response);
+    printf("1. Addition\n");
+    printf("2. Subtraction\n");
+    printf("3. Multiplication\n");
+    printf("4. Division\n");
+    scanf("%d",&user_response);
 
     if(user_response == 1){
         addition();
@@ -50,13 +50,29 @@ void addition(void) {
     printf("What two numbers would you like to add?(Write with a space inbetween): ");
     scanf("%f %f",&num1,&num2);
     float num3=num1+num2;
-    printf("%f+%f= %f",num1,num2,num3);
+    printf("%.2f+%.2f= %.2f",num1,num2,num3);
 }
 void subtraction(void) {
     float num1;
     float num2;
-    printf("What two numbers would you like to add?(Write with a space inbetween): ");
+    printf("What two numbers would you like to subtract?(Write with a space inbetween): ");
     scanf("%f %f",&num1,&num2);
     float num3=num1-num2;
-    printf("%f-%f= %f",num1,num2,num3);
+    printf("%.2f-%.2f= %.2f",num1,num2,num3);
+}
+void multiplication(void) {
+    float num1;
+    float num2;
+    printf("What two numbers would you like to multiply?(Write with a space inbetween): ");
+    scanf("%f %f",&num1,&num2);
+    float num3=num1*num2;
+    printf("%.2f*%f= %.2f",num1,num2,num3);
+}
+    void division(void) {
+    float num1;
+    float num2;
+    printf("What two numbers would you like to divide?(Write with a space inbetween): ");
+    scanf("%f %f",&num1,&num2);
+    float num3=num1/num2;
+    printf("%.2f/%.2f= %.2f",num1,num2,num3);
 }
